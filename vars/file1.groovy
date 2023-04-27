@@ -1,6 +1,6 @@
 
 def pull(){
-    sh 'sudo docker pull ${env.image_name}:${env.tag}'
+    sh 'sudo docker pull root@${env.image_name}:root@${env.tag}'
     sh 'ls'
 }
 
